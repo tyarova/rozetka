@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Navigation test for Chrome browser" verbose="1" >
+    <test name="Chrome browser" >
+        <parameter name="browserType" value ="Chrome"/>
+        <parameter name="envUrl" value ="https://rozetka.com.ua/"/>
+
+        <classes>
+            <class name="test.BaseTest" />
+        </classes>
+    </test>
+
+</suite>
